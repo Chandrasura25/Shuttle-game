@@ -13,11 +13,11 @@
     <script>
         $(document).ready(function(){
             $("div").hover(function(){
-                $("div").animate({
-                  left:'600px', height:'+=55px',width:'+=40px', color: '#000', opacity:0.5, backgroundColor:"yellow"
+                $(this).animate({
+                  left:'600px', height:'55px',width:'40px', color: '#000', opacity:0.5, backgroundColor:"yellow"
                 },1000);
              $("div").animate({
-                  height:'+=80px',width:'+=70px',  backgroundColor: 'blue',
+                  height:'+=70',width:'+=80px',  backgroundColor: 'blue',
                 color: '#000', opacity:0.7, top:"300px" 
                 },1000);
              $("div").animate({
